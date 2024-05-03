@@ -1,0 +1,51 @@
+@media screen and (max-width:420px) {
+  .containe {
+    width: 98%;
+  }
+  
+  .content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+.left-side {
+  flex-basis: 100%;
+  text-align: center;
+}
+.formarea {
+  flex-basis: 100%;
+  text-align: center;
+}
+.left-side h2 {
+  font-size: 22px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+.copyright {
+  font-size: 11px;
+  color: #737373;
+  padding-left: 175px;
+}
+  #footer {
+    padding: 30px 0;
+  }
+#close {
+  top: 130px;
+    right: 25px;
+}
+.popup {
+  position: absolute;
+  left: 8px;
+}
+
+
+
+
+
+
+
+}
